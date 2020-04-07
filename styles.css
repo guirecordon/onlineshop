@@ -31,15 +31,15 @@
 
 body {
   font-family: 'Helvetica Neue Medium', sans-serif;
-  background-color: #fff;
+  background-color: #f6f6f6;
 }
 
 main {
   background-color: #f6f6f6;
   max-width: 1342px;
   margin: 0 auto;
-  border-right: solid 1px #dedede;
-  border-left: solid 1px #dedede;
+  /* border-right: solid 1px #dedede;
+  border-left: solid 1px #dedede; */
 }
 
 a {
@@ -148,7 +148,6 @@ img {
   background-repeat: no-repeat;
   background-position: 20% 50%;
   background-size: 15em;
-  
 }
 
 .header-header {
@@ -223,6 +222,111 @@ img {
   cursor: pointer;
 }
 
+.white-bg {
+  background-color: #fff;
+  border-bottom: #d3d3d3 solid 1px;
+}
+
+.hot-ads {
+  height: 380px;
+  width: 767px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.ad-title {
+  padding: 30px 40px 10px 40px;
+}
+
+.ad-flex-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ad-main-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carrousel-roller {
+  border: 2px solid #d3d3d3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.img-ad-holder {
+  flex: 1 1 60%;
+  margin: 0 15px;
+  position: relative;
+}
+
+.ad-arrows {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.img-ad-holder img {
+  /* width: 420px; */
+}
+
+.label {
+  flex: 1 1 40%;
+  margin: 0 15px;
+}
+
+.ad-card-title {
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+.product-description {
+  padding-bottom: 15px;
+}
+
+.ad-card-label {
+  padding-bottom: 15px;
+}
+
+.ad-credit {
+  font-size: 14px;
+}
+
+.ad-credit > span {
+  color: #252525;
+}
+
+.label-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label-bottom-btn {
+  color: #f3f3f3;
+  font-size: 20px;
+  font-family: 'Helvetica Neue Medium', sans-serif;
+  border: #a03948 solid 1px;
+  border-radius: 4px;
+  padding: 13px 10px 10px 10px;
+  text-align: center;
+  margin: 2px;
+}
+
+.ad-price-tag {
+  flex-grow: 1;
+}
+
+.ad-purchase-cta {
+  flex-grow: 2;
+  cursor: pointer;
+}
+
 .topic {
   display: flex;
   color: #656565;
@@ -241,6 +345,12 @@ img {
 .topic-tag {
   font-size: 13px;
   padding-left: 10px;
+}
+
+.cat-icon {
+  position: relative;
+  bottom: 5px;
+  padding-right: 10px;
 }
 
 .products-container {
@@ -423,4 +533,18 @@ img {
     width: 260px;
     padding-top: 20px;
   }
+}
+
+@media (max-width: 768px) {
+  .ad-main-card {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hot-ads {
+    height: unset;
+    width: unset;
+    padding: 20px 0;
+}
 }
