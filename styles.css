@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url(fonts/HomepageBaukasten-Bold.otf);
+}
+
+@font-face {
+  font-family: 'Gotham Rounded Light';
+  src: url(fonts/Metropolis-ExtraLight/Metropolis-Light.otf);
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Light';
+  src: url(fonts/helvetica-neue-lt-com-45-light.ttf);
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Medium';
+  src: url(fonts/helvetica-neue-lt-com-65-medium.ttf);
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Bold';
+  src: url(fonts/helvetica-neue-lt-com-75-bold.ttf);
+}
+
+body {
+  font-family: 'Helvetica Neue Medium', sans-serif;
+}
+
+main {
+  background-color: #d4d4d4;
+}
+
+a {
+  text-decoration: none;
+  color: #888;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.std-red {
+  color: #d35266;
+}
+
+.std-gray {
+  color: #888;
+}
+
+.std-black {
+  color: #383838;
+}
+
+.red-bg {
+  background-color: #d35266;
+}
+
+.gray-bg {
+  background-color: #888;
+}
+
+.black-bg {
+  background-color: #383838;
+}
+
+.menu-link {
+  font-size: 16px;
+}
+
+.header {
+  
+}
+
+.navbar {
+  height: 40px;
+  max-width: 1042px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Gotham Rounded Light', sans-serif;
+}
+
+/* .navbar > div {
+  margin: 0 20px;
+} */
+
+.navbar-btn {
+  display: block;
+  text-align: center;
+  height: 32px;
+  line-height: 32px;
+  color: #f4f4f4;
+  background-color: #d35266;
+  border-radius: 2px;
+  font-weight: bold;
+  padding: 0 15px;
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.logo-tag {
+  font-family: 'Gotham Rounded Light', sans-serif;
+}
+
+.logo-link {
+  display: block;
+  height: 100%;
+}
+
+.logo-adjust {
+  height: 32px;
+}
+
+.logo-name {
+  font-family: 'Gotham Bold', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.menu-icon {
+  color: #888;
+}
+
+.collapse {
+  display: none;
+}
+
+main {
+  background-color: #f6f6f6;
+}
+
+.topic {
+  display: flex;
+  color: #656565;
+  padding: 20px;
+}
+
+.topic a:hover {
+  text-decoration: underline;
+}
+
+.topic-header {
+  
+}
+
+.topic-tag {
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px #dedede;
+}
+
+.card {
+  flex: 1 1 calc(50% - 10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: #dedede solid 1px;
+  border-radius: 2px;
+  background-color: #fff;
+  font-family: 'Helvetica Neue Bold', sans-serif;
+  margin: 5px;
+  padding: 15px;
+  min-width: 149px;
+}
+
+.img-holder {
+}
+
+.card-header {
+  color: #656565;
+  font-size: 15px;
+}
+
+.card-header:hover {
+  color: #000;
+}
+
+.card-label {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+.category {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.category:hover {
+  color: #b80e22;
+}
+
+.origin {
+  font-size: 12px;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.plus-sign {
+  border: #c9c9c9 solid 2px;
+  color: #c9c9c9;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #fff;
+  color: #888;
+}
+
+.footer p, a {
+  color: #888;
+}
+
+.left-ft-content {
+  padding: 20px 20px 65px 20px;
+}
+
+.left-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo-ft-wrapper {
+  height: 80px;
+}
+
+.logo-ft-wrapper img {
+  height: 100%;
+}
+
+.logo-ft-text {
+  display: block;
+  font-family: 'Gotham Bold', sans-serif;
+  padding-left: 15px;
+}
+
+.footer-text {
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .collapse-medium {
+    display: none;
+  }
+
+  .collapse {
+    display: flex;
+  }
+
+  .navbar {
+    height: 60px;
+  }
+
+  .logo-adjust {
+  height: 48px;
+  }
+
+  .logo-name {
+    font-size: 24px;
+  }
+
+  .card {
+    flex: 1 1 calc(25% - 10px);
+  }
+}
