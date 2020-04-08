@@ -1,4 +1,4 @@
-   @font-face {
+@font-face {
   font-family: 'Gotham Bold';
   src: url(fonts/HomepageBaukasten-Bold.otf);
 }
@@ -142,44 +142,40 @@ img {
 }
 
 .desktop-header {
-  height: 165px;
+  height: 420px;
   background-color: #d35266;
   background-image: url('img/logo-low-opacity.png');
   background-repeat: no-repeat;
   background-position: 20% 50%;
   background-size: 15em;
-}
-
-/* .header-header {
-  max-width: 1042px;
-  margin: 0 auto;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
-} */
-
-.dt-header-wrapper {
-  max-width: 1222px;
-  margin: 0 auto;
-  padding-top: 20px;
+  align-items: center;
 }
 
+.header-header {
+max-width: 1222px;
+margin: -30px auto 15px auto;
+padding-bottom: 35px;
+text-align: center;
+}
 
 .site-name {
   font-family: 'Gotham Bold', sans-serif;
   color: #fff;
-  font-size: 48px;
+  font-size: 64px;
 }
 
 .header-tag-line {
-  color: #fff;
-  font-family: 'Helvetica Neue Light', sans-serif;
-  font-size: 14px;
-  padding-bottom: 10px;
+  font-family: 'Gotham Rounded Light', sans-serif;
+color: #fff;
+font-size: 31px;
 }
 
 .header-form {
   display: flex;
+  padding-left: 15px;
 }
 
 .form-style {
@@ -195,11 +191,11 @@ img {
 }
 
 .search-bar1 {
-  width: 288px;
+  width: 388px;
 }
 
 .search-bar2 {
-  width: 192px;
+  width: 232px;
 }
 
 .category-select {
@@ -223,7 +219,7 @@ img {
   border: none;
   background-color: #383838;
   color: #888;
-  margin-left: 10px;
+  margin-left: 3px;
   font-size: 14px;
   cursor: pointer;
 }
@@ -442,6 +438,10 @@ img {
   border-bottom: solid 1px #dedede;
 }
 
+.topic-line {
+  flex: 1 1 100%;
+}
+
 .topic a:hover {
   text-decoration: underline;
 }
@@ -479,6 +479,13 @@ img {
   margin: 5px;
   padding: 15px;
   min-width: 149px;
+}
+
+.card-spesh {
+  flex: 1 1 calc(100% - 20px);
+  padding: 15px;
+  margin: 5px;
+  border: #dedede solid 1px;
 }
 
 .img-holder {
@@ -623,12 +630,9 @@ img {
     display: flex;
   }
 
-  /* .desktop-header {
+  .desktop-header {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  } */
+  }
 
   .navbar {
     height: 60px;
