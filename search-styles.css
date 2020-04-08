@@ -129,6 +129,7 @@ img {
   color: #fff;
   font-size: 18px;
   padding: 10px;
+  cursor: pointer;
 }
 
 .menu-icon {
@@ -223,14 +224,6 @@ img {
   border-bottom: #d3d3d3 solid 1px;
 }
 
-
-.search-wrapper {
-  max-width: 1082px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 280px 1fr;
-}
-
 .filter-area {
   grid-column: span 1;
   border-right: solid 1px #d3d3d3;
@@ -270,6 +263,7 @@ img {
   display: flex;
   padding: 15px;
   margin-bottom: 10px;
+  flex-direction: column;
 }
 
 .results-card-flex:hover {
@@ -286,7 +280,7 @@ img {
 }
 
 .text-hold {
-  margin-left: 20px;
+  padding-top: 20px;
   flex-grow: 2;
   flex-basis: 65%;
 }
@@ -606,6 +600,7 @@ img {
 
 .right-ft-content {
   font-size: 14px;
+  padding-top: 30px;
 }
 
 .right-header {
@@ -615,6 +610,29 @@ img {
 
 .footer-links {
   padding: 10px 0 0 20px;
+}
+
+.country-selections {
+  padding: 30px 20px 20px 20px;
+  display: flex;
+}
+
+.selection div {
+  margin: 5px;
+  font-size: 15px;
+}
+
+.selection-call {
+  color: #d35266;
+  padding: 10px 10px 5px 10px;
+  text-align: end;
+}
+
+.choice {
+  border: solid 1px #888;
+  padding: 10px 10px 5px 10px;
+  border-radius: 3px;
+  text-align: center;
 }
 
 .footer-bottom {
@@ -633,13 +651,6 @@ img {
     display: flex;
   }
 
-  /* .desktop-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  } */
-
   .navbar {
     height: 60px;
   }
@@ -652,41 +663,38 @@ img {
     font-size: 24px;
   }
 
+  .search-wrapper {
+  max-width: 1082px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+}
+
+.results-card-flex {
+  flex-direction: row;
+}
+
+.text-hold {
+  margin-left: 20px;
+  padding-top: unset;
+}
+
   .card {
     flex: 1 1 calc(25% - 10px);
   }
 
   .first-row {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .left-ft-content {
-    width: calc(100% - 260px);
+    justify-content: space-around;
   }
 
   .main-block {
-    width: 320px;
+    max-width: 320px;
     margin: 0 auto;
   }
 
   .right-ft-content {
-    width: 260px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
   }
 }
 
-@media (max-width: 768px) {
-  .ad-main-card {
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .hot-ads {
-    height: unset;
-    width: unset;
-    padding: 20px 0;
-}
-}
