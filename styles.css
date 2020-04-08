@@ -38,8 +38,6 @@ main {
   background-color: #f6f6f6;
   max-width: 1342px;
   margin: 0 auto;
-  /* border-right: solid 1px #dedede;
-  border-left: solid 1px #dedede; */
 }
 
 a {
@@ -155,10 +153,10 @@ img {
 }
 
 .header-header {
-max-width: 1222px;
-margin: -30px auto 15px auto;
-padding-bottom: 35px;
-text-align: center;
+  max-width: 1222px;
+  margin: -30px auto 15px auto;
+  padding-bottom: 35px;
+  text-align: center;
 }
 
 .site-name {
@@ -169,8 +167,8 @@ text-align: center;
 
 .header-tag-line {
   font-family: 'Gotham Rounded Light', sans-serif;
-color: #fff;
-font-size: 31px;
+  color: #fff;
+  font-size: 31px;
 }
 
 .header-form {
@@ -229,7 +227,6 @@ font-size: 31px;
   border-bottom: #d3d3d3 solid 1px;
 }
 
-
 .search-wrapper {
   max-width: 1082px;
   margin: 0 auto;
@@ -286,51 +283,6 @@ font-size: 31px;
   justify-content: space-between;
 }
 
-.rs-top-flex {
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.rs-plus-sign {
-  border: solid 1px #999;
-  height: 20px;
-  width: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #999;
-}
-
-.rs-tagline {
-  font-weight: bold;
-  font-size: 14px;
-}
-
-.rs-description {
-  padding: 10px 0;
-  color: #888;
-  font-size: 14px;
-}
-
-.rs-location {
-  font-size: 15px;
-}
-
-.rs-bottom-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 13px;
-  color: #888;
-}
-
-.rs-price-tag {
-  color: #fff;
-  font-size: 15px;
-  padding: 10px 10px 5px 10px;
-  border-radius: 3px;
-}
-
 .hot-ads {
   height: 380px;
   width: 767px;
@@ -374,10 +326,6 @@ font-size: 31px;
   right: 0;
   display: flex;
   align-items: center;
-}
-
-.img-ad-holder img {
-  /* width: 420px; */
 }
 
 .label {
@@ -442,6 +390,11 @@ font-size: 31px;
   flex: 1 1 100%;
 }
 
+.footer p,
+a {
+  color: #888;
+}
+
 .topic a:hover {
   text-decoration: underline;
 }
@@ -486,9 +439,6 @@ font-size: 31px;
   padding: 15px;
   margin: 5px;
   border: #dedede solid 1px;
-}
-
-.img-holder {
 }
 
 .card-header {
@@ -541,10 +491,6 @@ font-size: 31px;
   background-color: #fff;
   color: #888;
   border-top: solid 1px #dedede;
-}
-
-.footer p, a {
-  color: #888;
 }
 
 .left-ft-content {
@@ -639,7 +585,7 @@ font-size: 31px;
   }
 
   .logo-adjust {
-  height: 48px;
+    height: 48px;
   }
 
   .logo-name {
@@ -672,5 +618,5 @@ font-size: 31px;
     height: unset;
     width: unset;
     padding: 20px 0;
-}
+  }
 }
