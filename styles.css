@@ -1,4 +1,4 @@
-@font-face {
+   @font-face {
   font-family: 'Gotham Bold';
   src: url(fonts/HomepageBaukasten-Bold.otf);
 }
@@ -572,6 +572,7 @@ img {
 
 .right-ft-content {
   font-size: 14px;
+  padding-top: 30px;
 }
 
 .right-header {
@@ -581,6 +582,29 @@ img {
 
 .footer-links {
   padding: 10px 0 0 20px;
+}
+
+.country-selections {
+  padding: 30px 20px 20px 20px;
+  display: flex;
+}
+
+.selection div {
+  margin: 5px;
+  font-size: 15px;
+}
+
+.selection-call {
+  color: #d35266;
+  padding: 10px 10px 5px 10px;
+  text-align: end;
+}
+
+.choice {
+  border: solid 1px #888;
+  padding: 10px 10px 5px 10px;
+  border-radius: 3px;
+  text-align: center;
 }
 
 .footer-bottom {
@@ -624,22 +648,12 @@ img {
 
   .first-row {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .left-ft-content {
-    width: calc(100% - 260px);
+    justify-content: space-around;
   }
 
   .main-block {
     width: 320px;
     margin: 0 auto;
-  }
-
-  .right-ft-content {
-    width: 260px;
-    padding-top: 20px;
   }
 }
 
