@@ -6,13 +6,22 @@ Design Idea by ![Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 
 Here's a link to the material that inspired this project: https://www.behance.net/gallery/24796463/ZATTIX
 
-![screenshot main desktop](img/screenshot-main.png)
+![screenshot main desktop top](img/screenshot-main-desktop-top.png)
 
-![screenshot main mobile](img/screenshot-main-mobile.png)
+![screenshot main desktop bottom](img/screenshot-main-desktop-bottom.png)
 
-![screenshot search desktop](img/screenshot-search-results.png)
+![screenshot main mobile top](img/screenshot-main-mobile-top.png)
 
-![screenshot search mobile](img/screenshot-search-results-mobile.png)
+![screenshot main mobile bottom](img/screenshot-main-mobile-bottom.png)
+
+![screenshot search desktop top](img/screenshot-search-desktop-top.png)
+
+![screenshot search desktop bottom](img/screenshot-search-desktop-bottom.png)
+
+![screenshot search mobile top](img/screenshot-mobile-search-top.png)
+
+![screenshot search mobile bottom](img/screenshot-mobile-search-bottom.png)
+
 
 
 ## Built With
