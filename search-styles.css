@@ -40,6 +40,15 @@ main {
   margin: 0 auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+}
+
 a {
   text-decoration: none;
   color: #888;
@@ -630,7 +639,7 @@ a {
   font-size: 14px;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .collapse-medium {
     display: none;
   }
@@ -665,10 +674,6 @@ a {
   .text-hold {
     margin-left: 20px;
     padding-top: unset;
-  }
-
-  .card {
-    flex: 1 1 calc(25% - 10px);
   }
 
   .first-row {

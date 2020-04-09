@@ -40,6 +40,15 @@ main {
   margin: 0 auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+}
+
 a {
   text-decoration: none;
   color: #888;
@@ -174,6 +183,8 @@ img {
 .header-form {
   display: flex;
   padding-left: 15px;
+  width: 90%;
+  max-width: 1040px;
 }
 
 .form-style {
@@ -189,15 +200,16 @@ img {
 }
 
 .search-bar1 {
-  width: 388px;
+  flex: 3 3 34%;
 }
 
 .search-bar2 {
-  width: 232px;
+  flex: 2 2 29%;
 }
 
 .category-select {
   position: relative;
+  flex: 1 1 20%;
 }
 
 .select-selected::after {
@@ -212,8 +224,8 @@ img {
 }
 
 .form-btn {
+  flex: 1 1 15%;
   height: 43px;
-  width: 88px;
   border: none;
   background-color: #383838;
   color: #888;
@@ -567,7 +579,7 @@ a {
   font-size: 14px;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .collapse-medium {
     display: none;
   }
@@ -602,12 +614,12 @@ a {
   }
 
   .main-block {
-    width: 320px;
+    max-width: 320px;
     margin: 0 auto;
   }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .ad-main-card {
     flex-direction: column;
     justify-content: space-between;

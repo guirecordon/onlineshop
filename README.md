@@ -33,6 +33,7 @@ Here's a link to the material that inspired this project: https://www.behance.ne
 - Github: [@guirecordon](https://github.com/guirecordon)
 - Twitter: [@RecordonG](https://twitter.com/RecordonG)
 - Linkedin: [Guilherme Recordon](https://linkedin.com/gui-recordon-marketingmba/)
+- Email: guilherme.recordon@gmail.com
 
 ## 🤝 Contributing
 
