@@ -31,9 +31,9 @@ Here's a link to the material that inspired this project: https://www.behance.ne
 
 ## Live Demo
 
-[Live Demo Link - Main page](https://raw.githack.com/guirecordon/onlineshop/feature/main.html)
+[Live Demo Link - Main page](https://rawcdn.githack.com/guirecordon/onlineshop/43dbc8426fcb76feb2144c87c3c568eb45a7f551/main.html)
 
-[Live Demo Link - Search results page](https://raw.githack.com/guirecordon/onlineshop/feature/search-results.html)
+[Live Demo Link - Search results page](https://rawcdn.githack.com/guirecordon/onlineshop/43dbc8426fcb76feb2144c87c3c568eb45a7f551/search-results.html)
 
 ## Author
 
