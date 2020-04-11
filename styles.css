@@ -239,60 +239,8 @@ img {
   border-bottom: #d3d3d3 solid 1px;
 }
 
-.search-wrapper {
-  max-width: 1082px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 280px 1fr;
-}
-
-.filter-area {
-  grid-column: span 1;
-  border-right: solid 1px #d3d3d3;
-}
-
-.results-area {
-  grid-column: span 1;
-  border-right: solid 1px #d3d3d3;
-}
-
-.results-message {
-  padding: 15px;
-}
-
-.rs-card-border {
-  border-top: solid 1px #d3d3d3;
-  border-bottom: solid 1px #d3d3d3;
-}
-
-.results-card-flex {
-  display: flex;
-  padding: 15px;
-  margin-bottom: 10px;
-}
-
-.results-card-flex:hover {
-  background-color: #fff;
-}
-
 .ad-img {
   width: 100%;
-}
-
-.img-hold {
-  flex-grow: 1;
-  flex-basis: 35%;
-}
-
-.text-hold {
-  margin-left: 20px;
-  flex-grow: 2;
-  flex-basis: 65%;
-}
-
-.rs-top-flex {
-  display: flex;
-  justify-content: space-between;
 }
 
 .hot-ads {
@@ -453,9 +401,46 @@ a {
   border: #dedede solid 1px;
 }
 
+.padded-container {
+  height: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.pc-row1 {
+  padding-bottom: 145.2%;
+}
+
+.pc-row2 {
+  padding-bottom: 137.95%;
+}
+
+.pc-row4 {
+  padding-bottom: 66.68%;
+}
+
+.pc-row5 {
+  padding-bottom: 122.94%;
+}
+
+.centered {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  margin: auto;
+}
+
+.img-holder img {
+  width: 100%;
+  height: auto;
+}
+
 .card-header {
   color: #656565;
   font-size: 15px;
+  padding-top: 5px;
 }
 
 .card-header:hover {
@@ -465,7 +450,6 @@ a {
 .card-label {
   display: flex;
   flex-direction: column;
-  padding-top: 15px;
 }
 
 .category {
@@ -579,7 +563,7 @@ a {
   font-size: 14px;
 }
 
-@media only screen and (min-device-width: 768px) {
+@media only screen and (min-width: 768px) {
   .collapse-medium {
     display: none;
   }
@@ -619,7 +603,7 @@ a {
   }
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-width: 767px) {
   .ad-main-card {
     flex-direction: column;
     justify-content: space-between;
@@ -628,7 +612,13 @@ a {
 
   .hot-ads {
     height: unset;
-    width: unset;
+    width: 65%;
+    min-width: 320px;
     padding: 20px 0;
+  }
+
+  .img-ad-holder {
+    margin: 0 15px;
+    position: relative;
   }
 }
