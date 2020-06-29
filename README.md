@@ -2,7 +2,7 @@
 
 >Capstone projects are solo projects at the end of each of the Microverse Main Technical Curriculum sections. They're also timed and the final work expected to be submitted in 72 hours. This one consists of building an online store having certain design constraints. I'm expected to draw inspiration from the following: 
 
-Design Idea by ![Mohammed Awad on Behance](https://www.behance.net/M_Awad)
+Design Idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 
 Here's a link to the material that inspired this project: https://www.behance.net/gallery/24796463/ZATTIX
 
