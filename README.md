@@ -1,6 +1,6 @@
 # Online Shop - HTML & CSS Microverse Capstone Project
 
->Capstone projects are solo projects at the end of the each of the Microverse Main Technical Curriculum sections. This one consists of building an online store having certain design constraints. I'm also expected to draw inspiration from the following: 
+>Capstone projects are solo projects at the end of the each of the Microverse Main Technical Curriculum sections. They're also timed and the final work expected to be submitted in 72 hours. This one consists of building an online store having certain design constraints. I'm also expected to draw inspiration from the following: 
 
 Design Idea by ![Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 
