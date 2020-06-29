@@ -6,7 +6,7 @@ Design Idea by ![Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 
 Here's a link to the material that inspired this project: https://www.behance.net/gallery/24796463/ZATTIX
 
-I chose to create an art gallery store from which one could buy replicas of the original art work displayed. The single coolest thing I walked away with from this project was the ability to manipulate images in a truly responsive way. I did it using this trick/method sometimes referred to as the Netflix trick. I even wrote an article about it explaining the details of its application. You can read it on ![Hackernoon](https://hackernoon.com/how-to-create-truly-responsive-images-with-flexbox-2z4f3yjj)
+I chose to create an art gallery store from which one could buy replicas of the original art work displayed. The single coolest thing I walked away with from this project was the ability to manipulate images in a truly responsive way. I did it using this trick/method sometimes referred to as the Netflix trick. I even wrote an article about it explaining the details of its application. You can read it on [Hackernoon](https://hackernoon.com/how-to-create-truly-responsive-images-with-flexbox-2z4f3yjj)
 
 Keep scrolling for screenshots of the page and a live demo.
 
