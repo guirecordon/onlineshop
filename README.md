@@ -26,6 +26,8 @@ Keep scrolling for screenshots of the page and a live demo.
 
 ### Tablet view
 
+<img src="img/screen-main-tablet-center.png" alt="tablet main center" width="480">
+
 ### Mobile View Main Page
 
 <img src="img/screenshot-main-mobile-top.png" alt="screenshot main mobile top" width="320">
@@ -34,9 +36,9 @@ Keep scrolling for screenshots of the page and a live demo.
 
 ### Mobile View Search Results Page
 
-![screenshot search mobile top](img/screenshot-mobile-search-top.png)
+<img src="img/screenshot-mobile-search-top.png" alt="screenshot search mobile top" width="320">
 
-![screenshot search mobile bottom](img/screenshot-mobile-search-bottom.png)
+<img src="img/screenshot-mobile-search-bottom.png" alt="screenshot search mobile bottom" width=320>
 
 
 
