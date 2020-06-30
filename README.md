@@ -10,19 +10,29 @@ I chose to create an art gallery store from which one could buy replicas of the 
 
 Keep scrolling for screenshots of the page and a live demo.
 
+### Desktop view Main Page
+
 <img src="img/screenshot-main-desktop-top.png" alt="desktop top screenshot" width="720"/>
 
 <img src="img/screenshot-main-desktop-center.png" alt="desktop center screenshot" width="720">
 
 <img src="img/screenshot-main-desktop-bottom.png" alt="screenshot main desktop bottom" width="720">
 
-![screenshot main mobile top](img/screenshot-main-mobile-top.png)
+### Desktop view Search Results Page
 
-![screenshot main mobile bottom](img/screenshot-main-mobile-bottom.png)
+<img src="img/screenshot-search-desktop-top.png" alt="screenshot search desktop top" width=" 720">
 
-![screenshot search desktop top](img/screenshot-search-desktop-top.png)
+<img src="img/screenshot-search-desktop-bottom.png" alt="screenshot search desktop bottom" width="720">
 
-![screenshot search desktop bottom](img/screenshot-search-desktop-bottom.png)
+### Tablet view
+
+### Mobile View Main Page
+
+<img src="img/screenshot-main-mobile-top.png" alt="screenshot main mobile top" width="320">
+
+<img src="img/screenshot-main-mobile-bottom.png" alt="screenshot main mobile bottom" width="320">
+
+### Mobile View Search Results Page
 
 ![screenshot search mobile top](img/screenshot-mobile-search-top.png)
 
