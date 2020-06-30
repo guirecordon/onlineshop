@@ -1,12 +1,18 @@
 # Online Shop - HTML & CSS Microverse Capstone Project
 
->Capstone projects are solo projects at the end of the each of the Microverse Main Technical Curriculum sections. This one consists of building an online store having certain design constraints. I'm also expected to draw inspiration from the following: 
+>Capstone projects are solo projects at the end of each of the Microverse Main Technical Curriculum sections. They're also timed and the final work expected to be submitted in 72 hours. This one consists of building an online store having certain design constraints. I'm expected to draw inspiration from the following: 
 
-Design Idea by ![Mohammed Awad on Behance](https://www.behance.net/M_Awad)
+Design Idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 
 Here's a link to the material that inspired this project: https://www.behance.net/gallery/24796463/ZATTIX
 
+I chose to create an art gallery store from which one could buy replicas of the original art work displayed. The single coolest thing I walked away with from this project was the ability to manipulate images in a truly responsive way. I did it using this trick/method sometimes referred to as the Netflix trick. I even wrote an article about it explaining the details of its application. You can read it on [Hackernoon](https://hackernoon.com/how-to-create-truly-responsive-images-with-flexbox-2z4f3yjj)
+
+Keep scrolling for screenshots of the page and a live demo.
+
 ![screenshot main desktop top](img/screenshot-main-desktop-top.png)
+
+![screenshot main desktop center](img/screenshot-main-desktop-center.png)
 
 ![screenshot main desktop bottom](img/screenshot-main-desktop-bottom.png)
 
@@ -31,9 +37,9 @@ Here's a link to the material that inspired this project: https://www.behance.ne
 
 ## Live Demo
 
-[Live Demo Link - Main page](https://rawcdn.githack.com/guirecordon/onlineshop/43dbc8426fcb76feb2144c87c3c568eb45a7f551/main.html)
+[Live Demo Link - Main page](https://raw.githack.com/guirecordon/onlineshop/master/main.html)
 
-[Live Demo Link - Search results page](https://rawcdn.githack.com/guirecordon/onlineshop/43dbc8426fcb76feb2144c87c3c568eb45a7f551/search-results.html)
+[Live Demo Link - Search results page](https://raw.githack.com/guirecordon/onlineshop/master/search-results.html)
 
 ## Author
 
