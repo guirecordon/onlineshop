@@ -10,7 +10,7 @@ I chose to create an art gallery store from which one could buy replicas of the 
 
 Keep scrolling for screenshots of the page and a live demo.
 
-![screenshot main desktop top](img/screenshot-main-desktop-top.png =800px)
+![screenshot main desktop top](img/screenshot-main-desktop-top.png =800x)
 
 ![screenshot main desktop center](img/screenshot-main-desktop-center.png)
 
