@@ -14,9 +14,7 @@ Keep scrolling for screenshots of the page and a live demo.
 
 <img src="img/screenshot-main-desktop-center.png" alt="desktop center screenshot" width="720">
 
-![screenshot main desktop center](img/screenshot-main-desktop-center.png)
-
-![screenshot main desktop bottom](img/screenshot-main-desktop-bottom.png)
+<img src="img/screenshot-main-desktop-bottom.png" alt="screenshot main desktop bottom" width="720")
 
 ![screenshot main mobile top](img/screenshot-main-mobile-top.png)
 
